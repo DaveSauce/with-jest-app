@@ -5,10 +5,12 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch",
+    "test-clear": "yarn jest --clearCache",
     "test:ci": "jest --ci"
   },
   "dependencies": {
-    "next": "latest",
+    "@cerebruminc/cerebellum": "6.3.0-beta.dangerous.00fa2a1",
+    "next": "^13.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "server-only": "^0.0.1"
